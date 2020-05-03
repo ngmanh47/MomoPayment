@@ -11,7 +11,7 @@ var accessKey = "69ARD65s7BDF5OMG";
 var serectkey = "WdilOWiO5EfWa04nRDlbhMnQXoiPP0E2";
 var orderInfo = "Thanh toán MoMo";
 var amount = "10000";
-var returnUrl = "http://localhost:3000/complete";
+var returnUrl = "https://hcmus1712589-momo.herokuapp.com/complete";
 var notifyUrl = "https://callback.url/notify";
 
 var requestType = "captureMoMoWallet";
