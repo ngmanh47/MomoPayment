@@ -1,7 +1,6 @@
 const express = require('express');
 const https = require('https');
 const { v1: uuidv1 } = require('uuid');
-const config = require('../config/default.json');
 const querystring = require('qs');
 const router = express.Router();
 
