@@ -20,8 +20,8 @@ var extraData = "merchantName=NguyenManh";
 
 router.get('/', async (req, res) => {
  
-  res.render('home',{ title: 'Trang chủ' });
-
+  //res.render('home',{ title: 'Trang chủ' });
+  res.render('test_payment', { title: 'Trang chủ' });
 })
 
 router.get('/payment', async (req, res) => {
